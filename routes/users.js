@@ -1,7 +1,7 @@
 // routes/users.js
 
 import { Router } from 'express';
-import data from './data.json' assert { type: 'json' };
+import data from '../data.json' assert { type: 'json' };
 
 const router = Router();
 
